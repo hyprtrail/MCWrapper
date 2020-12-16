@@ -1,6 +1,5 @@
 {
-  "name": "mcserver",
-  "private": "true",
+  "name": "@hyprtrail/minecraftwrapper",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",

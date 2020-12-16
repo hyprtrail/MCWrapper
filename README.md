@@ -25,8 +25,9 @@ It relies format of the output log, it should work with pretty much any version 
 - NodeJS knowledge.
 
 #### Setup
-Run `npm install MCWrapper`.
-add the server.jar into the "/Minecraft" folder
+Run `npm install @hyprtrail/minecraftwrapper`.
+add the server.jar into the "/Minecraft" folder.
+Remember to accept the eula and open rconports if needed.
 
 ```javascript
 import {mcserver} from './mcserver'
