@@ -1,0 +1,6 @@
+/.cache
+/dist
+/Minecraft
+!important/Minecraft/server.properties
+!important/Minecraft/thisfolder.txt
+/node_modules

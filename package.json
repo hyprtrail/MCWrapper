@@ -1,0 +1,24 @@
+{
+  "name": "mcserver",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predev": "rimraf ./dist",
+    "dev": "parcel watch ./src/main.js -t node",
+    "prebuild": "rimraf ./dist",
+    "build": "parcel build ./src/main.js -t node",
+    "start": "nodemon ./dist/main.js --ignore Minecraft/"
+  },
+  "author": "Jag",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "nodemon": "^2.0.6",
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2"
+  }
+}
