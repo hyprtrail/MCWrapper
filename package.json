@@ -3,14 +3,14 @@
   "private": "true",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predev": "rimraf ./dist",
-    "dev": "parcel watch ./src/main.js -t node",
+    "dev": "parcel watch ./src/server.js -t node",
     "prebuild": "rimraf ./dist",
-    "build": "parcel build ./src/main.js -t node",
-    "start": "nodemon ./dist/main.js --ignore Minecraft/"
+    "build": "parcel build ./src/server.js -t node",
+    "start": "nodemon ./dist/server.js --ignore Minecraft/"
   },
   "author": "Jag",
   "license": "ISC",
